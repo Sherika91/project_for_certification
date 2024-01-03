@@ -196,3 +196,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # User Model
 AUTH_USER_MODEL = "users.User"
+
+# Fixtures dir
+FIXTURES_DIR = os.path.join(BASE_DIR, "fixtures")

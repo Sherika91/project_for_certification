@@ -11,8 +11,8 @@ class UsersViewSet(viewsets.ModelViewSet):
     serializer_class = UserSerializer
     default_permission = [AllowAny]
     permissions = {
-        'list': [IsAdmin],
-        'retrieve': [IsAuthenticated, IsOwnerOrAdmin],
+        'list': [IsAdmin],  # Only admin can retrieve list of users
+        'retrieve': [IsAdmin],  # Only admin can retrieve other users
         'create': [],
         'update': [IsOwnerOrAdmin],
         'partial_update': [IsOwnerOrAdmin],
