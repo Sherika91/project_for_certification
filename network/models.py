@@ -1,4 +1,6 @@
+from django.contrib.contenttypes.models import ContentType
 from django.db import models
+from django.urls import reverse
 from mptt.models import MPTTModel, TreeForeignKey
 
 NULLABLE = {
@@ -11,7 +13,7 @@ class Product(models.Model):
     name = models.CharField(max_length=255)
     model = models.CharField(max_length=50)
     release_date = models.DateField()
-    owner = models.ForeignKey('Network', on_delete=models.CASCADE)
+    owner_factory = models.ForeignKey('Network', on_delete=models.CASCADE)
     date_created = models.DateField(auto_now_add=True)
 
     def __str__(self):
@@ -38,6 +40,10 @@ class Network(MPTTModel):
     parent = TreeForeignKey('self', **NULLABLE, related_name='childeren', db_index=True, on_delete=models.CASCADE)
     date_created = models.DateField(auto_now_add=True)
     products = models.ManyToManyField(Product, related_name='products')
+
+    def get_admin_url(self):
+        content_type = ContentType.objects.get_for_model(self.__class__)
+        return reverse("admin:%s_%s_change" % (content_type.app_label, content_type.model), args=(self.id,))
 
     def __str__(self):
         return f"{self.name}, {self.email}, {self.country}"
