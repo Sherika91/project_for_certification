@@ -45,6 +45,8 @@ class RetailerAdmin(admin.ModelAdmin):
     clear_debt.short_description = "Clear Debt to Supplier For Selected Retailers"
 
     def supplier_link(self, obj):
+        if obj.parent is None:
+            return ''
         return format_html('<a href="{}">{}</a>'.format(obj.parent.get_admin_url(), obj.parent))
 
     supplier_link.allow_tags = True
@@ -66,6 +68,8 @@ class IndividualSellerAdmin(admin.ModelAdmin):
     clear_debt.short_description = "Clear Debt to Supplier For Selected Individual Sellers"
 
     def supplier_link(self, obj):
+        if obj.parent is None:
+            return ''
         return format_html('<a href="{}">{}</a>'.format(obj.parent.get_admin_url(), obj.parent))
 
     supplier_link.allow_tags = True
