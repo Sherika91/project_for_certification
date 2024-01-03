@@ -13,7 +13,7 @@ class Product(models.Model):
     name = models.CharField(max_length=255)
     model = models.CharField(max_length=50)
     release_date = models.DateField()
-    owner_factory = models.ForeignKey('Network', on_delete=models.CASCADE)
+    owner_factory = models.ForeignKey('Network', on_delete=models.CASCADE, **NULLABLE)
     date_created = models.DateField(auto_now_add=True)
 
     def __str__(self):
@@ -37,7 +37,9 @@ class Network(MPTTModel):
     street = models.CharField(max_length=100)
     house_number = models.CharField(max_length=50)
     dept_to_supplier = models.DecimalField(max_digits=10, decimal_places=2, default=0.0)
-    parent = TreeForeignKey('self', **NULLABLE, related_name='childeren', db_index=True, on_delete=models.CASCADE)
+    parent = TreeForeignKey('self', **NULLABLE, related_name='childeren', db_index=True, on_delete=models.CASCADE,
+                            help_text=f" {__name__} objects (Factory, Retailer, Individual Seller), "
+                                      f"if not selected, it will be considered as a root object")
     date_created = models.DateField(auto_now_add=True)
     products = models.ManyToManyField(Product, related_name='products')
 

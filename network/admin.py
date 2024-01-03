@@ -15,7 +15,9 @@ class ProductsAdmin(admin.ModelAdmin):
 
     @staticmethod
     def manufacturer(obj):
-        return format_html('<a href="{}">{}</a>'.format(obj.owner.get_admin_url(), obj.owner))
+        if obj.owner_factory is not None:
+            return format_html('<a href="{}">{}</a>'.format(obj.owner_factory.get_admin_url(), obj.owner_factory))
+        return ''
 
 
 @admin.register(Factory)
