@@ -1,0 +1,1327 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2024-01-03T10:43:20.027Z",
+      "user": 6,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "test@skypro.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Avatar\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2024-01-03T10:57:50.932Z",
+      "user": 6,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Candy Bar N1, 1, 2024-01-03",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2024-01-03T10:58:00.117Z",
+      "user": 6,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Snikkers, 1, 2024-01-03",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2024-01-03T10:58:05.685Z",
+      "user": 6,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Bounty, 1, 2024-01-03",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2024-01-03T10:58:15.596Z",
+      "user": 6,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "Twix, 1, 2024-01-03",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2024-01-03T10:58:23.105Z",
+      "user": 6,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "Milky Way, 1, 2024-01-03",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2024-01-03T10:58:34.445Z",
+      "user": 6,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "Kinder, 1, 2024-01-03",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2024-01-03T10:59:03.806Z",
+      "user": 6,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "Kinder Bueno, 1, 2024-01-03",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2024-01-03T11:02:45.658Z",
+      "user": 6,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Kinder Factory, KinderFactory@gmail.com, Norway",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2024-01-03T11:03:48.374Z",
+      "user": 6,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Candy Bars Factory, CandyBarsFactory@gmail.com, Germany",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2024-01-03T11:04:44.113Z",
+      "user": 6,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Milki Way Factory, MilkyWayfactory@gmail.com, Hungary",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2024-01-03T11:06:09.960Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "Kinder Retailer, KinderRetailer@gmail.com, Hungary",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2024-01-03T11:07:53.310Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "Milky Way Retailer, MilkyWayRetailer@gmail.com, Italy",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2024-01-03T11:08:01.646Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "Milky Way Retailer, MilkyWayRetailer@gmail.com, Italy",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2024-01-03T11:08:13.063Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "7",
+      "object_repr": "Milky Way Retailer, MilkyWayRetailer@gmail.com, Italy",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2024-01-03T11:08:22.758Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "8",
+      "object_repr": "Milky Way Retailer, MilkyWayRetailer@gmail.com, Italy",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2024-01-03T11:08:26.558Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "9",
+      "object_repr": "Milky Way Retailer, MilkyWayRetailer@gmail.com, Italy",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2024-01-03T11:08:41.754Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "10",
+      "object_repr": "Milky Way Retailer, Milky@gmail.com, Italy",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2024-01-03T11:09:53.385Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "11",
+      "object_repr": "Milky Way Retailer, Milky@gmail.com, Italy",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2024-01-03T11:09:58.628Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "12",
+      "object_repr": "Milky Way Retailer, Milky@gmail.com, Italy",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2024-01-03T11:11:47.275Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "12",
+      "object_repr": "Milky Way Retailer, Milky@gmail.com, Italy",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2024-01-03T11:11:47.280Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "11",
+      "object_repr": "Milky Way Retailer, Milky@gmail.com, Italy",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2024-01-03T11:11:47.282Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "10",
+      "object_repr": "Milky Way Retailer, Milky@gmail.com, Italy",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2024-01-03T11:11:47.283Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "9",
+      "object_repr": "Milky Way Retailer, MilkyWayRetailer@gmail.com, Italy",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2024-01-03T11:11:47.283Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "8",
+      "object_repr": "Milky Way Retailer, MilkyWayRetailer@gmail.com, Italy",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2024-01-03T11:11:47.284Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "7",
+      "object_repr": "Milky Way Retailer, MilkyWayRetailer@gmail.com, Italy",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2024-01-03T11:11:47.285Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "Milky Way Retailer, MilkyWayRetailer@gmail.com, Italy",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2024-01-03T11:11:58.324Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "Milky Way Retailer, MilkyWayRetailer@gmail.com, Italy",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Parent\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2024-01-03T11:13:55.973Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "13",
+      "object_repr": "Snikkers Retailer, Snikkers@gmail.com, Italy",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2024-01-03T11:16:07.503Z",
+      "user": 6,
+      "content_type": 8,
+      "object_id": "14",
+      "object_repr": "Kinder Seller, Kinder@gmail.com, Italy",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2024-01-03T11:17:08.831Z",
+      "user": 6,
+      "content_type": 8,
+      "object_id": "15",
+      "object_repr": "Snikkers Seller, SnikkersSell@gmail.com, Lithuenia",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2024-01-03T11:18:04.805Z",
+      "user": 6,
+      "content_type": 8,
+      "object_id": "16",
+      "object_repr": "Milky Way Seller, Milky2ay@gmail.com, Lithuenia",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add Network",
+      "content_type": 6,
+      "codename": "add_network"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change Network",
+      "content_type": 6,
+      "codename": "change_network"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete Network",
+      "content_type": 6,
+      "codename": "delete_network"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view Network",
+      "content_type": 6,
+      "codename": "view_network"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add Factory",
+      "content_type": 7,
+      "codename": "add_factory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change Factory",
+      "content_type": 7,
+      "codename": "change_factory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete Factory",
+      "content_type": 7,
+      "codename": "delete_factory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view Factory",
+      "content_type": 7,
+      "codename": "view_factory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add Individual Seller",
+      "content_type": 8,
+      "codename": "add_individualseller"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change Individual Seller",
+      "content_type": 8,
+      "codename": "change_individualseller"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete Individual Seller",
+      "content_type": 8,
+      "codename": "delete_individualseller"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view Individual Seller",
+      "content_type": 8,
+      "codename": "view_individualseller"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add Retailer",
+      "content_type": 9,
+      "codename": "add_retailer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change Retailer",
+      "content_type": 9,
+      "codename": "change_retailer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete Retailer",
+      "content_type": 9,
+      "codename": "delete_retailer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view Retailer",
+      "content_type": 9,
+      "codename": "view_retailer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add Product",
+      "content_type": 10,
+      "codename": "add_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change Product",
+      "content_type": 10,
+      "codename": "change_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete Product",
+      "content_type": 10,
+      "codename": "delete_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view Product",
+      "content_type": 10,
+      "codename": "view_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add User",
+      "content_type": 11,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change User",
+      "content_type": 11,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete User",
+      "content_type": 11,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view User",
+      "content_type": 11,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "network",
+      "model": "network"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "network",
+      "model": "factory"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "network",
+      "model": "individualseller"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "network",
+      "model": "retailer"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "network",
+      "model": "product"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "users",
+      "model": "user"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "tkh41knboopen6nafydmzsvaemz2hs43",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGlnG618o6XMGa9dr4wBypDipEHeHSCmgfTPzXiLitta49bzEicVFOHH63QjTI7cd8B3bbZZpbusykdwVedAux5nz83q4fwcVe_3WmCjbwfgyMDOkYOBsUnAagcCStt5Yg6C8QaKiA5MK4JJVDohZhSLeH_DtN_0:1rKyhW:RK69BVpmFWm-VeZfowDzs2uSCtuKPL7_n6WtVUBgr_c",
+      "expire_date": "2024-01-17T10:42:18.540Z"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 1,
+    "fields": {
+      "name": "Bounty",
+      "model": "1",
+      "release_date": "2024-01-03",
+      "owner_factory": null,
+      "date_created": "2024-01-03"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 2,
+    "fields": {
+      "name": "Snikkers",
+      "model": "1",
+      "release_date": "2024-01-03",
+      "owner_factory": null,
+      "date_created": "2024-01-03"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 3,
+    "fields": {
+      "name": "Twix",
+      "model": "1",
+      "release_date": "2024-01-03",
+      "owner_factory": null,
+      "date_created": "2024-01-03"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 4,
+    "fields": {
+      "name": "Milky Way",
+      "model": "1",
+      "release_date": "2024-01-03",
+      "owner_factory": null,
+      "date_created": "2024-01-03"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 5,
+    "fields": {
+      "name": "Kinder",
+      "model": "1",
+      "release_date": "2024-01-03",
+      "owner_factory": null,
+      "date_created": "2024-01-03"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 6,
+    "fields": {
+      "name": "Kinder Bueno",
+      "model": "1",
+      "release_date": "2024-01-03",
+      "owner_factory": null,
+      "date_created": "2024-01-03"
+    }
+  },
+  {
+    "model": "network.network",
+    "pk": 1,
+    "fields": {
+      "name": "Kinder Factory",
+      "slug": "kinder-factory",
+      "email": "KinderFactory@gmail.com",
+      "country": "Norway",
+      "city": "Fredrikstad",
+      "street": "Tors gate 75",
+      "house_number": "55B",
+      "dept_to_supplier": "0.00",
+      "parent": null,
+      "date_created": "2024-01-03",
+      "lft": 1,
+      "rght": 10,
+      "tree_id": 1,
+      "level": 0,
+      "products": [
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "model": "network.network",
+    "pk": 2,
+    "fields": {
+      "name": "Candy Bars Factory",
+      "slug": "candy-bars-factory",
+      "email": "CandyBarsFactory@gmail.com",
+      "country": "Germany",
+      "city": "Chemnitz",
+      "street": "Gotthardstrasse 8",
+      "house_number": "12B",
+      "dept_to_supplier": "0.00",
+      "parent": null,
+      "date_created": "2024-01-03",
+      "lft": 1,
+      "rght": 8,
+      "tree_id": 2,
+      "level": 0,
+      "products": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "model": "network.network",
+    "pk": 3,
+    "fields": {
+      "name": "Milki Way Factory",
+      "slug": "milki-way-factory",
+      "email": "MilkyWayfactory@gmail.com",
+      "country": "Hungary",
+      "city": "Bábonymegyer",
+      "street": "Nánási út 39.",
+      "house_number": "15G",
+      "dept_to_supplier": "0.00",
+      "parent": null,
+      "date_created": "2024-01-03",
+      "lft": 1,
+      "rght": 14,
+      "tree_id": 3,
+      "level": 0,
+      "products": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "network.network",
+    "pk": 4,
+    "fields": {
+      "name": "Kinder Retailer",
+      "slug": "kinder-retailer",
+      "email": "KinderRetailer@gmail.com",
+      "country": "Hungary",
+      "city": "Tószeg",
+      "street": "Apor Péter u. 55.",
+      "house_number": "16G",
+      "dept_to_supplier": "1000.00",
+      "parent": 1,
+      "date_created": "2024-01-03",
+      "lft": 2,
+      "rght": 5,
+      "tree_id": 1,
+      "level": 1,
+      "products": [
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "model": "network.network",
+    "pk": 5,
+    "fields": {
+      "name": "Milky Way Retailer",
+      "slug": "milky-way-retailer",
+      "email": "MilkyWayRetailer@gmail.com",
+      "country": "Italy",
+      "city": "Casavecchia",
+      "street": "Piazza Guglielmo Pepe 2",
+      "house_number": "55H",
+      "dept_to_supplier": "1000.00",
+      "parent": 3,
+      "date_created": "2024-01-03",
+      "lft": 10,
+      "rght": 13,
+      "tree_id": 3,
+      "level": 1,
+      "products": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "network.network",
+    "pk": 13,
+    "fields": {
+      "name": "Snikkers Retailer",
+      "slug": "snikkers-retailer",
+      "email": "Snikkers@gmail.com",
+      "country": "Italy",
+      "city": "Villapiana",
+      "street": "Piazza Guglielmo Pepe 2",
+      "house_number": "12T",
+      "dept_to_supplier": "10000.00",
+      "parent": 2,
+      "date_created": "2024-01-03",
+      "lft": 4,
+      "rght": 7,
+      "tree_id": 2,
+      "level": 1,
+      "products": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "model": "network.network",
+    "pk": 14,
+    "fields": {
+      "name": "Kinder Seller",
+      "slug": "kinder-seller",
+      "email": "Kinder@gmail.com",
+      "country": "Italy",
+      "city": "Villapiana",
+      "street": "Via Alfredo Fusco 63",
+      "house_number": "13R",
+      "dept_to_supplier": "2000.00",
+      "parent": 4,
+      "date_created": "2024-01-03",
+      "lft": 3,
+      "rght": 4,
+      "tree_id": 1,
+      "level": 2,
+      "products": [
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "model": "network.network",
+    "pk": 15,
+    "fields": {
+      "name": "Snikkers Seller",
+      "slug": "snikkers-seller",
+      "email": "SnikkersSell@gmail.com",
+      "country": "Lithuenia",
+      "city": "Birštonas",
+      "street": "Prienų g. 9, LT-59202, Birštono sav.",
+      "house_number": "55T",
+      "dept_to_supplier": "2000.00",
+      "parent": 13,
+      "date_created": "2024-01-03",
+      "lft": 5,
+      "rght": 6,
+      "tree_id": 2,
+      "level": 2,
+      "products": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "model": "network.network",
+    "pk": 16,
+    "fields": {
+      "name": "Milky Way Seller",
+      "slug": "milky-way-seller",
+      "email": "Milky2ay@gmail.com",
+      "country": "Lithuenia",
+      "city": "Vilnius",
+      "street": "Ozo g. 25, LT-01001, Vilniaus m. sav.",
+      "house_number": "56Y",
+      "dept_to_supplier": "2000.00",
+      "parent": 5,
+      "date_created": "2024-01-03",
+      "lft": 11,
+      "rght": 12,
+      "tree_id": 3,
+      "level": 2,
+      "products": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "network.factory",
+    "pk": 1,
+    "fields": {}
+  },
+  {
+    "model": "network.factory",
+    "pk": 2,
+    "fields": {}
+  },
+  {
+    "model": "network.factory",
+    "pk": 3,
+    "fields": {}
+  },
+  {
+    "model": "network.retailer",
+    "pk": 4,
+    "fields": {}
+  },
+  {
+    "model": "network.retailer",
+    "pk": 5,
+    "fields": {}
+  },
+  {
+    "model": "network.retailer",
+    "pk": 13,
+    "fields": {}
+  },
+  {
+    "model": "network.individualseller",
+    "pk": 14,
+    "fields": {}
+  },
+  {
+    "model": "network.individualseller",
+    "pk": 15,
+    "fields": {}
+  },
+  {
+    "model": "network.individualseller",
+    "pk": 16,
+    "fields": {}
+  },
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$3bo3p1RBL9USUYt4njQGst$VABz0+ssAtcd6WS4s8Uf55iOlu0vLcyb9mAOPwfc9nU=",
+      "last_login": "2022-02-20T10:34:16Z",
+      "email": "test@skypro.ru",
+      "first_name": "Иван",
+      "last_name": "Иванов",
+      "phone": "+79217777777",
+      "image": "media/LWScreenShot_2023-12-24_at_23.00.48.png",
+      "is_active": true,
+      "is_admin": false
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$3bo3p1RBL9USUYt4njQGst$VABz0+ssAtcd6WS4s8Uf55iOlu0vLcyb9mAOPwfc9nU=",
+      "last_login": "2022-02-20T10:34:16.332Z",
+      "email": "test2@skypro.ru",
+      "first_name": "Петр",
+      "last_name": "Петров",
+      "phone": "+79218888888",
+      "image": "",
+      "is_active": true,
+      "is_admin": false
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$3bo3p1RBL9USUYt4njQGst$VABz0+ssAtcd6WS4s8Uf55iOlu0vLcyb9mAOPwfc9nU=",
+      "last_login": "2022-02-20T10:34:16.332Z",
+      "email": "test3@skypro.ru",
+      "first_name": "Петр",
+      "last_name": "Петров",
+      "phone": "+7999999999",
+      "image": "",
+      "is_active": true,
+      "is_admin": false
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$3bo3p1RBL9USUYt4njQGst$VABz0+ssAtcd6WS4s8Uf55iOlu0vLcyb9mAOPwfc9nU=",
+      "last_login": "2022-02-20T10:34:16.332Z",
+      "email": "test4@skypro.ru",
+      "first_name": "Сергей",
+      "last_name": "Стародубцев",
+      "phone": "+79217777777",
+      "image": "",
+      "is_active": true,
+      "is_admin": false
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$3bo3p1RBL9USUYt4njQGst$VABz0+ssAtcd6WS4s8Uf55iOlu0vLcyb9mAOPwfc9nU=",
+      "last_login": "2022-02-20T10:34:16.332Z",
+      "email": "admin@skypro.ru",
+      "first_name": "Админ",
+      "last_name": "Петров",
+      "phone": "+79217777777",
+      "image": "",
+      "is_active": true,
+      "is_admin": true
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$UkSmp6ND3Y7OuyRcC7iW4S$9A9qmNkfBReAA9HmZwVK7XMfMahuJdrgwLyNLjaWkJA=",
+      "last_login": "2024-01-03T10:42:18.539Z",
+      "email": "admin@gmail.com",
+      "first_name": "admin",
+      "last_name": "admin",
+      "phone": "",
+      "image": "",
+      "is_active": true,
+      "is_admin": true
+    }
+  }
+]
