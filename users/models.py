@@ -19,7 +19,7 @@ class User(AbstractBaseUser):
     image = models.ImageField(upload_to='media/', verbose_name='Avatar', **NULLABLE, )
 
     is_active = models.BooleanField(default=True, verbose_name='Active Status', )
-    is_admin = models.BooleanField(default=False, verbose_name='Admin Status', )
+    is_admin = models.BooleanField(default=False, verbose_name='Staff Status', )
 
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['first_name', 'last_name', 'phone']
