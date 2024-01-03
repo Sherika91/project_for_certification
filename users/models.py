@@ -1,9 +1,9 @@
 from django.contrib.auth.models import AbstractBaseUser
-from django.db import models
-from .managers import UserManager
-from phonenumber_field.modelfields import PhoneNumberField
-from django.utils.translation import gettext_lazy as _
 from django.core.validators import EmailValidator
+from django.db import models
+from phonenumber_field.modelfields import PhoneNumberField
+
+from .managers import UserManager
 
 NULLABLE = {'null': True, 'blank': True}
 
