@@ -12,7 +12,7 @@ class UsersViewSet(viewsets.ModelViewSet):
     default_permission = [AllowAny]
     permissions = {
         'list': [IsAdmin],
-        'retrieve': [IsAuthenticated, IsOwnerOrAdmin],
+        'retrieve': [IsOwnerOrAdmin],
         'create': [],
         'update': [IsOwnerOrAdmin],
         'partial_update': [IsOwnerOrAdmin],

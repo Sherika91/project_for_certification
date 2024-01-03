@@ -5,7 +5,7 @@ class IsOwnerOrAdmin(permissions.BasePermission):
     """ Custom permission to only allow owners of an object to edit it. """
 
     def has_object_permission(self, request, view, obj):
-        if request.user == obj.owner or request.user.is_staff:
+        if request.user == obj.owner or request.user.is_admin:
             return True
         return False
 
