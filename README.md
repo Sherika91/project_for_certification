@@ -43,6 +43,10 @@ GRANT ALL PRIVILEGES ON DATABASE <your_database_name> TO <your_user_name>;
 python manage.py makemigrations
 python manage.py migrate
 ```
+### Load fixtures
+```sh
+python manage.py loadall 
+```
 ### Run the server
 ```sh
 python manage.py runserver
